@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Mi Página</title>
+    <link rel="icon" href="../Assets/Images/Icon.png" />
+    <link rel="stylesheet" href="../Style/Index.css">
+</head>
+<body>
+  <div class="barraNav" >
+    <a href="#" >INICIO</a></li>
+    <a href="#sobreMi" >SOBRE MI</a></li>
+    <a href="#tecnologias" >TECNOLOGIAS</a></li>
+    <a href="#contactame" >CONTACTAME</a></li>
+  </div>
+
+  <div class="contenedorNombre">
+    <h1>Cristian Ortega</h1>
+    <p>Desarrollador web Fullstack</p>
+  </div>
+  <div class="contenedorPais">
+    <p class="ciudadPais">Loja, Ecuador</p>
+    <div class="redesSociales">
+      <p class="textoRedesSociales">Mis redes sociales</p>
+      <div class="iconos">
+        <a href="https://github.com/lCristianl" target="_blank">
+          <img src="../Assets/Images/github.png" width="50" onclick=""/>
+        </a>
+        <a href="https://www.instagram.com/cristianl10l/" target="_blank">
+          <img src="../Assets/Images/instagram.png" width="50" onclick=""/>
+        </a>
+      </div>
+    </div>
+  </div>
+  </body>
+
+  <section id="sobreMi">
+    <div class="contenedorSobreMi">
+        <h1>Sobre Mi:</h2>
+        <img src="../Assets/Images/Cristian.jpeg" width="200">
+        <h2>Soy un desarrollador web Junior. Me gusta aprender cada vez mas sobre la programacion web.</h2>
+        <p>Nací en Loja Ecuador, Tengo 20 años, soy estudiante de cuarto ciclo de la carrera de Desarrollo de Software, En lo que mas me especializo es en la programacion web, con tecnologias como React o Django, Pero aparte tambien he aprendido Java y C#.</p>
+    </div>
+  </section>
+
+  <section id="tecnologias">
+    <div class="contenedorTecnologias">
+        <h2 class="h2">Tecnologias</h2>
+        <p class="h5">Estas son algunas de las tecnologias que manejo:</p>
+        <div class="contenedorImagenes">
+          <div class="imagenGrupo">
+            <a href="https://es.react.dev/" target="_blank">
+              <img src="../Assets/Images/react.webp" width="300">
+            </a>
+            <p>React</p>
+          </div>
+          <div class="imagenGrupo">
+            <a href="https://www.djangoproject.com/" target="_blank">
+              <img src="../Assets/Images/django.png" width="200">
+            </a>
+              <p>Django</p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="contactame">
+    <div class="contenedorContactame">
+      <h2 class="h2">Contactame</h2>
+      <form action="" class="formulario">
+        <div class="grupo">
+          <label for="name">NOMBRE:</label>
+          <input type="text" id="name" name="name" placeholder="Ej. Cristian Ortega"/>
+        </div>
+        <div class="grupo">
+          <label for="email">CORREO:</label>
+          <input type="email" id="email" name="email" placeholder="Ej. cristian10@gmail.com"/>
+        </div>
+        <div class="grupo">
+          <label for="message">MENSAJE:</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+      <div class="contactos">
+        <h2 class="h2">Otros contactos:</h2>
+        <p>Mi número: 0986120496</p>
+        <p>Mi correo: cripistian26@gmail.com</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer>
+    <p>&copy; 2025 Cristian Ortega</p>
+  </footer>
+
+  <script src="../Script/Logic.js"></script>
+</html>
