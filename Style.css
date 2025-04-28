@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url(Assets/Images/fondo.jpeg);
+  background-image: url(/Assets/Images/fondo.jpeg);
   background-size: contain;
   background-position: initial;  
   background-repeat: no-repeat;
